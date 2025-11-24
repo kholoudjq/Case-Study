@@ -1,0 +1,9 @@
+KPI,Description,Formula,Granularity
+Avarage Selling Price,Average price per unit sold,Sum(Sales) / Sum(Quantity),"Product, Month"
+Total Sales,Total sales amount for products,Sum(Sales),"Product, Month"
+Total Quantity Sold,Total units sold for products ,Sum(Quantity),"Product, Month"
+Sales by State ,Total sales amount per state ,Sum(Sales),"State, Month"
+Customer Total Sales by Segment,Total sales amount per customer within segment,Sum(Sales),"Customer, Segment"
+Product Sales by State,Total sales amount per product within state ,Sum(Sales),"State, Product"
+Avarage Delivery Time,Average days between order date and ship date,AVG(Ship Date - Order Date),"State, Product, Month"
+Avarage Delivery Time by Product and State,Average delivery days per product within state ,AVG(Ship Date - Order Date),"State, Product "
