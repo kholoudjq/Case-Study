@@ -3,3 +3,5 @@ numpy
 xlsxwriter
 openpyxl
 python-dateutil
+matplotlib
+seaborn
